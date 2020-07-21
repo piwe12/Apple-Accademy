@@ -1,0 +1,2046 @@
+
+/*untuk pengaturan semua bagian */
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: : none;
+    list-style: none;
+    box-sizing: border-box;
+    text-align: center;
+    width: device-width;
+}
+/*untuk pengaturan bagian head*/
+.bar-head{
+    background-color: black;
+    height: 100px;
+}
+/*untuk pengaturan bagian navigation*/
+.bar-nav{
+    background-color: rgb(205, 214, 178);
+    height: 50px;
+    position: sticky;
+    justify-content:  space-around;
+    align-items: center;
+   
+}
+
+.bar-nav ul{
+    margin-left: 800px;
+    padding: 10px;
+}
+
+.bar-nav li{
+    list-style: none;
+    display: inline-block;
+     margin: 0 30px;
+}
+
+.bar-nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family:"Comic Sans MS" ;
+    font-size: 16px;
+    
+}
+
+.bar-nav li a:hover{
+    color: black;
+}
+
+a.active,a:hover{
+
+    transition: .5s;
+}
+/*untuk pengaturan bagian content*/
+.bar-content{
+    background-color: rgb(236, 236, 227);
+    height: 900px;
+}
+/*untuk pengaturan bagian footer*/
+.bar-footer{
+    background-color: grey;
+    height: 100px;
+    color: white;
+    font-family:"Comic Sans MS" ;
+}
+/*untuk pengaturan bagian logo*/
+#foto-1{
+    height: 100px;
+    width: 300px;
+    margin-left: -1200px;
+}
+/*untuk pengaturan bagian foto slider*/
+#foto-2{
+    height: 400px;
+    width: 700px;
+}
+
+
+#foto-3{
+    height: 400px;
+    width: 700px;
+}
+
+
+#foto-4{
+    height: 400px;
+    width: 900px;
+}
+
+#foto-5{
+    height: 400px;
+    width: 1000px;
+}
+
+
+#foto-6{
+    height: 400px;
+    width: 700px;
+}
+
+#foto-7{
+    height: 250px;
+    width: 350px;
+    margin-left: -500px;
+}
+
+
+#foto-8{
+    
+    height: 250px;
+    width: 350px;
+    margin-left: 500px;
+    margin-top: -400px;
+}
+
+
+#foto-9{
+    
+    height: 250px;
+    width: 350px;
+    margin-left: -500px;
+}
+
+
+#foto-10{
+    
+    height: 250px;
+    width: 350px;
+    margin-left: 500px;
+}
+
+#foto-11{
+    height: 100px;
+    width: 100px;
+    margin-left: -100px;
+}
+
+#foto-12{
+    height: 100px;
+    width: 100px;
+    margin-left: -850px;
+    margin-top: 100px;
+}
+
+#foto-13{
+    height: 200px;
+    width: 300px;
+}
+
+#foto-14{
+    height: 200px;
+    width: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#foto-15{
+    height: 200px;
+    width: 300px;
+}
+
+#foto-16{
+    height: 200px;
+    width: 400px;
+}
+
+#foto-17{
+    height: 200px;
+    width: 400px;
+}
+
+/*untuk pengaturan bagian coming soon*/
+.tulisan-coming-soon{
+    color: gray;
+    font-family: Rockwell;
+    font-size: 40px;
+    padding: 30px;
+}
+/*untuk pengaturan bagian slider*/
+.slidershow{
+    height: 400px;
+    width: 700px;
+    margin: 0 auto;
+    border: 5px solid black;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide{
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+/*untuk pengaturan bagian penjelasan company*/
+.tulisan-company{
+    color: gray;
+    font-family:"Comic Sans MS" ;
+    font-size: 20px;
+}
+/*untuk pengaturan bagian login*/
+#tulisan-login{
+	color: gray;
+	font-size: 50px;
+	font-family: Rockwell;
+
+}
+
+.sign-in {
+    width: 300px;
+    padding: 20px;
+	font-size: 30px;
+    margin: 0 auto;
+	margin-top: -500px;
+}
+
+#card {
+    background: black;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 410px;
+    margin: 6rem auto 8.1rem auto;
+    width: 329px;
+    margin-top: 20px;
+}
+
+.form-border {
+    background: -webkit-linear-gradient(right,#FFD700, #a6f77b);
+    height: 1px;
+    width: 100%;
+}
+
+.form-content {
+    background: #fbfbfb;
+    border: none;
+    outline: none;
+    padding-top: 14px;
+	background: transparent;
+    color: white;
+    text-align: left;
+    
+}
+
+.form-content: -ms-input-placeholder{
+    color: white;
+  
+}
+
+.form {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+	
+}
+
+label {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+	color: white;
+	margin-left: -200px;
+}
+
+#button-login{
+	
+	font-size: 20px;
+	font-family: Rockwell;
+	margin-top: -40px;
+}
+
+#button-login a{
+    display: inline-block;
+       background-color: #2E8B57;
+       text-decoration: none;
+       color: white;
+       width: 100px;
+       
+       padding: 8px 24px 9px;
+       line-height: 1 px;
+}
+
+
+
+#button-login a:hover{
+   background-color: #00FF7F;
+}
+
+
+#forget{
+	color: white;
+	font-size: 15px;
+	font-family: Rockwell;
+	margin-top: -30px;
+	margin-bottom: 40px;
+	
+	text-decoration: none;
+}
+
+#forget a{
+	font-family: Rockwell;
+	color: white;
+}
+
+#signup{
+	color: white;
+	font-size: 15px;
+	font-family: Rockwell;
+	margin-left: 10px;
+	margin-top: -20px;
+	text-decoration: none;
+}
+
+#signup a{
+	font-family: Rockwell;
+	color: white;
+}
+
+
+#tulisan-signup{
+	color: gray;
+	font-size: 50px;
+	font-family: Rockwell;
+}
+
+#card-signup {
+    background: black;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 610px;
+    margin: 6rem auto 8.1rem auto;
+    width: 329px;
+    margin-top: 20px;
+}
+
+
+.sign-up {
+    width: 300px;
+    padding: 20px;
+	font-size: 30px;
+    margin: 0 auto;
+	margin-top: -700px;
+}
+
+#Country{
+    margin-left: -140px;
+}
+
+#Address{
+    margin-left: -100px;
+}
+
+.submit {
+    background-color: #2E8B57;
+    color: white;
+    padding: 10px 15px 10px;
+}
+
+#Preference{
+    margin-left: -140px;
+}
+
+.tigaD{
+    color: gray;
+    font-family: Rockwell;
+    font-size: 20px;
+
+}
+
+.duaD{
+  color: gray;
+    font-family: Rockwell;
+    font-size: 20px;
+}
+
+#P-7{
+    margin-left: -450px;
+}
+
+#P-8{
+    margin-left: 450px;
+    margin-top: -300px;
+    margin-bottom: 250px;
+}
+
+#P-9{
+    margin-left: -450px;
+}
+
+#P-10{
+    margin-left: 550px;
+    margin-top: -300px;
+}
+
+.map{
+    color: gray;
+    font-family: Rockwell;
+    font-size:20px;
+}
+
+.Auction{
+    color: gray;
+    font-size: 20px;
+    font-family: Rockwell;
+}
+
+.toggle-button{
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+
+}
+
+@media screen and (max-width:1450px){
+
+    
+    #foto-1{
+        height: 100px;
+        width: 300px;
+        margin-left: -1050px;
+    }
+
+    .bar-nav ul{
+        margin-left: 700px;
+        padding: 10px;
+    }
+   
+    .tulisan-company{
+        color: gray;
+        font-family:"Comic Sans MS" ;
+        font-size: 18px;
+    }
+
+    .bar-content{
+        background-color: rgb(236, 236, 227);
+        height: 800px;
+    }
+
+    .bar-footer{
+        background-color: grey;
+        height: 90px;
+        font-size: 14px;
+        color: white;
+        font-family:"Comic Sans MS" ;
+    }
+
+    #foto-7{
+        height: 180px;
+        width: 280px;
+        margin-left: -450px;
+    }
+
+
+    #foto-8{
+        
+        height: 180px;
+        width: 280px;
+        margin-left: 500px;
+        margin-top: -400px;
+    }
+
+
+    #foto-9{
+        
+        height: 180px;
+        width: 280px;
+        margin-left: -450px;
+    }   
+
+
+    #foto-10{
+        
+        height: 180px;
+        width: 280px;
+        margin-left: 490px;
+    }
+
+    
+    .tigaD{
+        color: gray;
+        font-family: Rockwell;
+        font-size: 18px;
+
+    }
+
+    .duaD{
+    color: gray;
+        font-family: Rockwell;
+        font-size: 18px;
+    }
+
+    #P-7{
+        margin-left: -450px;
+    }
+
+    #P-8{
+        margin-left: 500px;
+        margin-top: -230px;
+        margin-bottom: 170px;
+    }
+
+    #P-9{
+        margin-left: -450px;
+    }
+
+    #P-10{
+        margin-left: 500px;
+        margin-top: -230px;
+    }
+
+
+}
+
+@media screen and (max-width:1350px){
+
+    
+    #foto-1{
+        height: 100px;
+        width: 300px;
+        margin-left: -900px;
+    }
+
+    .bar-nav ul{
+        margin-left: 550px;
+        padding: 10px;
+    }
+
+    .tulisan-company{
+        color: gray;
+        font-family:"Comic Sans MS" ;
+        font-size: 16px;
+    }
+
+    .map{
+        color: gray;
+        font-family: Rockwell;
+        font-size:16px;
+    }
+
+    #foto-11{
+        height: 80px;
+        width: 80px;
+        margin-left: -100px;
+    }
+    
+    #foto-12{
+        height: 80px;
+        width: 80px;
+        margin-left: -850px;
+        margin-top: 100px;
+    }
+    
+    .bar-content{
+        background-color: rgb(236, 236, 227);
+        height: 750px;
+    }
+
+    .bar-footer{
+        background-color: grey;
+        height: 80px;
+        font-size: 13px;
+        color: white;
+        font-family:"Comic Sans MS" ;
+    }
+   
+        
+    #foto-7{
+        height: 200px;
+        width: 300px;
+        margin-left: -450px;
+    }
+
+
+    #foto-8{
+        
+        height: 200px;
+        width: 300px;
+        margin-left: 500px;
+        margin-top: -400px;
+    }
+
+
+    #foto-9{
+        
+        height: 200px;
+        width: 300px;
+        margin-left: -450px;
+    }
+
+
+    #foto-10{
+        
+        height: 200px;
+        width: 300px;
+        margin-left: 490px;
+    }
+
+    
+    .tigaD{
+        color: gray;
+        font-family: Rockwell;
+        font-size: 16px;
+
+    }
+
+    .duaD{
+    color: gray;
+        font-family: Rockwell;
+        font-size: 16px;
+    }
+
+    #P-7{
+        margin-left: -450px;
+    }
+
+    #P-8{
+        margin-left: 450px;
+        margin-top: -250px;
+        margin-bottom: 200px;
+    }
+
+    #P-9{
+        margin-left: -450px;
+    }
+
+    #P-10{
+        margin-left: 500px;
+        margin-top: -240px;
+    }
+
+    
+
+}
+
+@media screen and (max-width:1150px){
+
+    .bar-head{
+        background-color: black;
+        height: 80px;
+    }
+
+    .bar-nav{
+        background-color: rgb(205, 214, 178);
+        height: 40px;
+        position: sticky;
+        justify-content:  space-around;
+        align-items: center;
+       
+    }
+
+    #foto-1{
+        height: 80px;
+        width: 250px;
+        margin-left: -700px;
+    }
+
+    .bar-nav ul{
+        margin-left: 400px;
+        padding: 8px;
+    }
+
+    .bar-nav li{
+        list-style: none;
+        display: inline-block;
+         margin: 0 25px;
+    }
+    
+    .bar-nav a{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-family:"Comic Sans MS" ;
+        font-size: 13px;
+   
+    }
+
+    .tulisan-coming-soon{
+        color: gray;
+        font-family: Rockwell;
+        font-size: 30px;
+        padding: 30px;
+    }
+
+    .slidershow{
+        height: 300px;
+        width: 600px;
+        margin: 0 auto;
+        border: 5px solid black;
+        overflow: hidden;
+        position: relative;
+    }
+
+    #foto-2{
+        height: 300px;
+        width: 500px;
+    }
+    
+    
+    #foto-3{
+        height: 300px;
+        width: 600px;
+    }
+    
+    
+    #foto-4{
+        height: 300px;
+        width: 500px;
+    }
+    
+    #foto-5{
+        height: 300px;
+        width: 500px;
+    }
+
+    .tulisan-company{
+        color: gray;
+        font-family:"Comic Sans MS" ;
+        font-size: 14px;
+    }
+
+    .tigaD{
+        color: gray;
+        font-family: Rockwell;
+        font-size: 15px;
+    
+    }
+
+    .duaD{
+        font-size: 15px;
+    }
+
+    #P-7{
+        margin-left: -410px;
+    }
+
+    #P-8{
+        margin-left: 410px;
+        margin-top: -30px;
+    }
+
+    #P-9{
+        margin-left: -410px;
+    }
+
+    #P-10{
+        margin-left: 410px;
+        margin-top: -30px;
+    }
+        
+    #foto-7{
+        height: 200px;
+        width: 300px;
+        
+    }
+
+
+    #foto-8{
+        
+        height: 200px;
+        width: 300px;
+        margin-left: 100px;
+    }
+
+
+    #foto-9{
+        
+        height: 200px;
+        width: 300px;
+      
+    }
+
+
+    #foto-10{
+        
+        height: 200px;
+        width: 300px;
+        margin-left: 300px;
+    }
+
+    .map{
+        color: gray;
+        font-family: Rockwell;
+        font-size:14px;
+    }
+
+    #foto-11{
+        height: 70px;
+        width: 70px;
+        margin-left: -60px;
+    }
+    
+    #foto-12{
+        height: 70px;
+        width: 70px;
+        margin-left: -750px;
+        margin-top: 70px;
+    }
+        
+    #foto-13{
+        height: 150px;
+        width: 250px;
+    }
+
+    #foto-14{
+        height: 150px;
+        width: 250px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    #foto-15{
+        height: 150px;
+        width: 250px;
+    }
+
+    .bar-content{
+        background-color: rgb(236, 236, 227);
+        height: 650px;
+    }
+
+    .bar-footer{
+        background-color: grey;
+        height: 70px;
+        font-size: 12px;
+        color: white;
+        font-family:"Comic Sans MS" ;
+    }
+
+    #tulisan-signup{
+        color: gray;
+        font-size: 30px;
+        font-family: Rockwell;
+    }
+
+    #card-signup {
+        background: black;
+        border-radius: 8px;
+        box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+        height: 410px;
+        margin: 6rem auto 8.1rem auto;
+        width: 279px;
+        margin-top: 20px;
+    }
+
+
+
+    .sign-up {
+        width: 250px;
+        padding: 20px;
+        font-size: 20px;
+        margin: 0 auto;
+        margin-top: -550px;
+    }
+
+    label{
+        margin-left: -150px;
+    }
+
+    #Address{
+        margin-left: -50px;
+    }
+
+    #Country{
+        margin-left: -90px;
+    }
+
+
+    #Preference{
+        margin-left: -90px;
+    }
+
+    #foto-7{
+        height: 150px;
+        width: 250px;
+        margin-left: -450px;
+    }
+
+
+    #foto-8{
+        
+        height: 150px;
+        width: 250px;
+        margin-left: 450px;
+        margin-top: -400px;
+    }
+
+
+    #foto-9{
+        
+        height: 150px;
+        width: 250px;
+        margin-left: -10px;
+    }
+
+
+    #foto-10{
+        
+        height: 150px;
+        width: 250px;
+        margin-left: 200px;
+    }
+
+
+    .tigaD{
+        color: gray;
+        font-family: Rockwell;
+        font-size: 14px;
+
+    }
+
+    .duaD{
+    color: gray;
+        font-family: Rockwell;
+        font-size: 14px;
+    }
+
+    #P-7{
+        margin-left: -450px;
+    }
+
+    #P-8{
+        margin-left: 450px;
+        margin-top: -190px;
+        margin-bottom: 150px;
+    }
+
+    #P-9{
+        margin-left: -450px;
+        margin-bottom: 20px;
+    }
+
+    #P-10{
+        margin-left: 450px;
+        margin-top: -40px;
+    }
+
+
+}
+
+
+@media screen and (max-width:1000px){
+
+    .bar-head{
+        background-color: black;
+        height: 60px;
+    }
+
+    .bar-nav{
+        background-color: rgb(205, 214, 178);
+        height: 30px;
+        position: sticky;
+        justify-content:  space-around;
+        align-items: center;
+       
+    }
+
+    #foto-1{
+        height: 60px;
+        width: 200px;
+        margin-left: -600px;
+    }
+
+    .bar-nav ul{
+        margin-left: 400px;
+        padding: 6px;
+    }
+
+    .bar-nav li{
+        list-style: none;
+        display: inline-block;
+         margin: 0 20px;
+    }
+    
+    .bar-nav a{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-family:"Comic Sans MS" ;
+        font-size: 10px;
+    }
+
+    .tulisan-company{
+        color: gray;
+        font-family:"Comic Sans MS" ;
+        font-size: 12px;
+    }
+
+    .tigaD{
+        color: gray;
+        font-family: Rockwell;
+        font-size: 12px;
+    
+    }
+
+    .duaD{
+        font-size: 12px;
+    }
+
+    #P-7{
+        margin-left: -400px;
+    }
+
+    #P-8{
+        margin-left: 400px;
+        margin-top: -25px;
+    }
+
+    #P-9{
+        margin-left: -400px ;
+    }
+
+    #P-10{
+        margin-left: 400px;
+        margin-top: -25px;
+    }
+        
+    #foto-7{
+        height: 200px;
+        width: 300px;
+        
+    }
+
+
+    #foto-8{
+        
+        height: 200px;
+        width: 300px;
+        margin-left: 100px;
+    }
+
+
+    #foto-9{
+        
+        height: 200px;
+        width: 300px;
+        margin-left: -200px;
+    }
+
+
+    #foto-10{
+        
+        height: 200px;
+        width: 300px;
+        margin-left: 100px;
+    }
+
+    .Auction{
+        color: gray;
+        font-size: 15px;
+        font-family: Rockwell;
+    }
+
+    #foto-16{
+        height: 150px;
+        width: 300px;
+    }
+    
+    #foto-17{
+        height: 150px;
+        width: 300px;
+    }
+
+    
+    .map{
+        color: gray;
+        font-family: Rockwell;
+        font-size:12px;
+    }
+
+    #foto-11{
+        height: 60px;
+        width: 60px;
+        margin-left: -40px;
+    }
+    
+    #foto-12{
+        height: 60px;
+        width: 60px;
+        margin-left: -600px;
+        margin-top: 70px;
+    }
+    
+    #foto-13{
+        height: 100px;
+        width: 200px;
+    }
+
+    #foto-14{
+        height: 100px;
+        width: 200px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    #foto-15{
+        height: 100px;
+        width: 200px;
+    }
+
+    .bar-content{
+        background-color: rgb(236, 236, 227);
+        height: 500px;
+    }
+
+    .bar-footer{
+        background-color: grey;
+        height: 60px;
+        font-size: 11px;
+        color: white;
+        font-family:"Comic Sans MS" ;
+    }
+
+    #card {
+        background: black;
+        border-radius: 8px;
+        box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+        height: 310px;
+        margin: 6rem auto 8.1rem auto;
+        width: 229px;
+        margin-top: 20px;
+    }
+
+        
+    label {
+        font-family: "Raleway", sans-serif;
+        font-size: 15px;
+        color: white;
+        margin-left: -140px;
+    }
+
+    #tulisan-login{
+        color: gray;
+        font-size: 30px;
+        font-family: Rockwell;
+    
+    }
+
+    .sign-in {
+        width: 200px;
+        padding: 10px;
+        font-size: 20px;
+        margin: 0 auto;
+        margin-top: -400px;
+    }
+
+    #button-login{
+	
+        font-size: 10px;
+        font-family: Rockwell;
+        margin-top: -20px;
+    }
+    
+    #button-login a{
+        display: inline-block;
+           background-color: #2E8B57;
+           text-decoration: none;
+           color: white;
+           width: 60px;
+           
+           padding: 6px 18px 6px;
+           line-height: 1 px;
+    }
+
+    #forget{
+        color: white;
+        font-size: 10px;
+        font-family: Rockwell;
+        margin-top: -30px;
+        margin-bottom: 40px;
+        
+        text-decoration: none;
+    }
+
+    #signup{
+        color: white;
+        font-size: 10px;
+        font-family: Rockwell;
+        margin-left: 10px;
+        margin-top: -20px;
+        text-decoration: none;
+    }
+
+    #tulisan-signup{
+        color: gray;
+        font-size: 30px;
+        font-family: Rockwell;
+        margin-top: -20px;
+    }
+    
+    #card-signup {
+        background: black;
+        border-radius: 8px;
+        box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+        height: 410px;
+        margin: 6rem auto 8.1rem auto;
+        width: 229px;
+        margin-top: 20px;
+    }
+    
+    
+    .sign-up {
+        width: 200px;
+        padding: 20px;
+        font-size: 20px;
+        margin: 0 auto;
+        margin-top: -550px;
+    }
+    
+    #Address{
+        margin-left: -0px;
+    }
+    
+    #Country{
+        margin-left: -50px;
+    }
+  
+    
+    #Preference{
+        margin-left: -50px;
+    }    
+}
+
+
+@media screen and (max-width:900px){
+
+    .bar-head{
+        background-color: black;
+        height: 50px;
+    }
+
+    .bar-nav{
+        background-color: rgb(205, 214, 178);
+        height: 25px;
+        position: sticky;
+        justify-content:  space-around;
+        align-items: center;
+       
+    }
+
+    #foto-1{
+        height: 50px;
+        width: 170px;
+        margin-left: -580px;
+    }
+
+    .bar-nav ul{
+        margin-left: 400px;
+        padding: 5px;
+    }
+
+    .bar-nav li{
+        list-style: none;
+        display: inline-block;
+         margin: 0 15px;
+    }
+    
+    .bar-nav a{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-family:"Comic Sans MS" ;
+        font-size: 8px;   
+
+    }
+
+    .tulisan-coming-soon{
+        color: gray;
+        font-family: Rockwell;
+        font-size: 20px;
+        padding: 30px;
+    }
+
+    .slidershow{
+        height: 200px;
+        width: 500px;
+        margin: 0 auto;
+        border: 5px solid black;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .tulisan-company{
+        color: gray;
+        font-family:"Comic Sans MS" ;
+        font-size: 10px;
+    }
+
+    #foto-2{
+        height: 200px;
+        width: 400px;
+    }
+    
+    
+    #foto-3{
+        height: 200px;
+        width: 500px;
+    }
+    
+    
+    #foto-4{
+        height: 200px;
+        width: 800px;
+    }
+    
+    #foto-5{
+        height: 200px;
+        width: 500px;
+    }
+    
+    
+    #foto-6{
+        height: 200px;
+        width: 400px;
+    }
+
+    .tigaD{
+        color: gray;
+        font-family: Rockwell;
+        font-size: 10px;
+    
+    }
+
+    .duaD{
+        font-size: 10px;
+    }
+
+    #P-7{
+        margin-left: -300px;
+    }
+
+    #P-8{
+        margin-left: 300px;
+        margin-top: -20px;
+    }
+
+    #P-9{
+        margin-left: -300px ;
+    }
+
+    #P-10{
+        margin-left: 300px;
+        margin-top: -200px;
+    }
+        
+    #foto-7{
+        height: 150px;
+        width: 200px;
+        
+        
+    }
+
+
+    #foto-8{
+        
+        height: 150px;
+        width: 200px;
+        margin-left: 100px;
+    }
+
+
+    #foto-9{
+        
+        height: 150px;
+        width: 200px;
+    }
+
+
+    #foto-10{
+        
+        height: 150px;
+        width: 200px;
+        margin-left: 100px;
+    }
+    
+
+    .Auction{
+        color: gray;
+        font-size: 10px;
+        font-family: Rockwell;
+    }
+
+    #foto-16{
+        height: 100px;
+        width: 250px;
+    }
+    
+    #foto-17{
+        height: 100px;
+        width: 250px;
+    }
+
+    .map{
+        color: gray;
+        font-family: Rockwell;
+        font-size:10px;
+    }
+
+    #foto-11{
+        height: 40px;
+        width: 40px;
+        margin-left: -20px;
+    }
+    
+    #foto-12{
+        height: 40px;
+        width: 40px;
+        margin-left: -500px;
+        margin-top: 50px;
+    }
+    
+#foto-13{
+    height: 80px;
+    width: 150px;
+}
+
+#foto-14{
+    height: 80px;
+    width: 180px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#foto-15{
+    height: 80px;
+    width: 150px;
+}
+
+.bar-footer{
+    background-color: grey;
+    height: 50px;
+    font-size: 10px;
+    color: white;
+    font-family:"Comic Sans MS" ;
+}
+
+
+#foto-7{
+    height: 130px;
+    width: 230px;
+    margin-left: -450px;
+}
+
+
+#foto-8{
+    
+    height: 130px;
+    width: 230px;
+    margin-left: 500px;
+    margin-top: -400px;
+}
+
+
+#foto-9{
+    
+    height: 130px;
+    width: 230px;
+    margin-left: 40px;
+}
+
+
+#foto-10{
+    
+    height: 130px;
+    width: 230px;
+    margin-left: 230px;
+}
+
+
+.tigaD{
+    color: gray;
+    font-family: Rockwell;
+    font-size: 12px;
+    margin-top: -20px;
+
+}
+
+.duaD{
+color: gray;
+    font-family: Rockwell;
+    font-size: 12px;
+    margin-top: -50px;
+}
+
+#P-7{
+    margin-left: -450px;
+}
+
+#P-8{
+    margin-left: 500px;
+    margin-top: -160px;
+    margin-bottom: 130px;
+}
+
+#P-9{
+    margin-left: -450px;
+}
+
+#P-10{
+    margin-left: 500px;
+    margin-top: -40px;
+}
+
+
+}
+
+
+@media screen and (max-width:750px){
+
+    .bar-head{
+        background-color: black;
+        height: 40px;
+    }
+
+    .bar-nav{
+        background-color: rgb(205, 214, 178);
+        height: 25px;
+        position: sticky;
+        justify-content:  space-around;
+        align-items: center;
+       
+    }
+
+    #foto-1{
+        height: 30px;
+        width: 100px;
+        margin-left: -400px;
+    }
+
+    .bar-nav ul{
+        margin-left: 400px;
+        padding: 5px;
+    }
+
+    .bar-nav li{
+        list-style: none;
+        display: inline-block;
+         margin: 0 15px;
+    }
+    
+    .bar-nav a{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-family:"Comic Sans MS" ;
+        font-size: 8px;   
+
+    }
+
+    .tulisan-coming-soon{
+        color: gray;
+        font-family: Rockwell;
+        font-size: 15px;
+        padding: 30px;
+    }
+
+    .slidershow{
+        height: 150px;
+        width: 400px;
+        margin: 0 auto;
+        border: 5px solid black;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .tulisan-company{
+        color: gray;
+        font-family:"Comic Sans MS" ;
+        font-size: 8px;
+    }
+
+    #foto-2{
+        height: 50px;
+        width: 300px;
+    }
+    
+    
+    #foto-3{
+        height: 150px;
+        width: 400px;
+    }
+    
+    
+    #foto-4{
+        height: 150px;
+        width: 1000px;
+    }
+    
+    #foto-5{
+        height: 150px;
+        width: 400px;
+    }
+    
+    
+    #foto-6{
+        height: 200px;
+        width: 400px;
+    }
+
+    .tigaD{
+        color: gray;
+        font-family: Rockwell;
+        font-size: 8px;
+        margin-top: -20px;
+    
+    }
+
+    .duaD{
+        font-size: 8px;
+       
+    }
+
+    #P-7{
+        margin-left:1px;
+    }
+
+    #P-8{
+        margin-left: 300px;
+        margin-top: 20px;
+        margin-left: -1px;
+        margin-bottom: 150px;
+    }
+
+    #P-9{
+        margin-left: -1px ;
+    }
+
+    #P-10{
+        margin-left: 1px;
+        margin-top: 20px;
+        
+    }
+        
+    #foto-7{
+        height: 150px;
+        width: 200px;
+        margin-left: 1px;
+    }
+
+
+    #foto-8{
+        
+        height: 150px;
+        width: 200px;
+        margin-left: 1px;
+        
+       
+    }
+
+
+    #foto-9{
+        
+        height: 150px;
+        width: 200px;
+        margin-left: -1px;
+    }
+
+
+    #foto-10{
+        
+        height: 150px;
+        width: 200px;
+        margin-top: 10px;
+        margin-left: -1px;
+    }
+    
+
+    .Auction{
+        color: gray;
+        font-size: 10px;
+        font-family: Rockwell;
+    }
+
+    #foto-16{
+        height: 100px;
+        width: 250px;
+    }
+    
+    #foto-17{
+        height: 100px;
+        width: 250px;
+    }
+
+    .map{
+        color: gray;
+        font-family: Rockwell;
+        font-size:8px;
+    }
+
+    #foto-11{
+        height: 40px;
+        width: 40px;
+        margin-left: -20px;
+    }
+    
+    #foto-12{
+        height: 40px;
+        width: 40px;
+        margin-left: -500px;
+        margin-top: 50px;
+    }
+        
+    #foto-13{
+        height: 60px;
+        width: 100px;
+        
+    }
+
+    #foto-14{
+        height: 60px;
+        width: 100px;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    #foto-15{
+        height: 60px;
+        width: 100px;
+    }
+    
+    .bar-footer{
+        background-color: grey;
+        height: 50px;
+        font-size: 10px;
+        color: white;
+        font-family:"Comic Sans MS" ;
+    }
+
+    .toggle-button{
+        display: flex;
+
+    }
+
+    .bar-nav{
+        display: none;
+        width: 100%;
+        height: 100px;
+    }
+
+    .bar-content{
+        height: 1000px;
+    }
+
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+    .bar-nav ul{
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+        margin-left: -150px;
+    }
+
+    .bar-nav li {
+        text-align: center;
+    }
+
+    .bar-nav li a{
+       margin-left: 300px;
+    }
+
+    .bar-nav.active{
+        display: flex;
+    }
+    
+
+}
+
+@media screen and (max-width:550px){
+
+    .bar-head{
+        background-color: black;
+        height: 30px;
+    }
+
+    .bar-nav{
+        background-color: rgb(205, 214, 178);
+        height: 20px;
+        position: sticky;
+        justify-content:  space-around;
+        align-items: center;
+       
+    }
+
+    #foto-1{
+        height: 25px;
+        width: 90px;
+        margin-left: -250px;
+    }
+
+    .bar-nav ul{
+        margin-left: 400px;
+        padding: 5px;
+    }
+
+    .bar-nav li{
+        list-style: none;
+        display: inline-block;
+         margin: 0 15px;
+    }
+    
+    .bar-nav a{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-family:"Comic Sans MS" ;
+        font-size: 8px;   
+
+    }
+
+    .tulisan-coming-soon{
+        color: gray;
+        font-family: Rockwell;
+        font-size: 15px;
+        padding: 30px;
+    }
+
+    .slidershow{
+        height: 150px;
+        width: 400px;
+        margin: 0 auto;
+        border: 5px solid black;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .tulisan-company{
+        color: gray;
+        font-family:"Comic Sans MS" ;
+        font-size: 8px;
+    }
+
+    #foto-2{
+        height: 50px;
+        width: 300px;
+    }
+    
+    
+    #foto-3{
+        height: 150px;
+        width: 400px;
+    }
+    
+    
+    #foto-4{
+        height: 150px;
+        width: 1000px;
+    }
+    
+    #foto-5{
+        height: 150px;
+        width: 400px;
+    }
+    
+    
+    #foto-6{
+        height: 200px;
+        width: 400px;
+    }
+
+    .tigaD{
+        color: gray;
+        font-family: Rockwell;
+        font-size: 8px;
+        margin-top: -20px;
+    
+    }
+
+    .duaD{
+        font-size: 8px;
+       
+    }
+
+    #P-7{
+        margin-left:1px;
+    }
+
+    #P-8{
+        margin-left: 300px;
+        margin-top: 20px;
+        margin-left: -1px;
+        margin-bottom: 150px;
+    }
+
+    #P-9{
+        margin-left: -1px ;
+    }
+
+    #P-10{
+        margin-left: 1px;
+        margin-top: 20px;
+        
+    }
+        
+    #foto-7{
+        height: 150px;
+        width: 200px;
+        margin-left: 1px;
+    }
+
+
+    #foto-8{
+        
+        height: 150px;
+        width: 200px;
+        margin-left: 1px;
+        
+       
+    }
+
+
+    #foto-9{
+        
+        height: 150px;
+        width: 200px;
+        margin-left: -1px;
+    }
+
+
+    #foto-10{
+        
+        height: 150px;
+        width: 200px;
+        margin-top: 10px;
+        margin-left: -1px;
+    }
+    
+
+    .Auction{
+        color: gray;
+        font-size: 10px;
+        font-family: Rockwell;
+    }
+
+    #foto-16{
+        height: 100px;
+        width: 250px;
+    }
+    
+    #foto-17{
+        height: 100px;
+        width: 250px;
+    }
+
+    .map{
+        color: gray;
+        font-family: Rockwell;
+        font-size:6px;
+    }
+
+    #foto-11{
+        height: 30px;
+        width: 30px;
+        margin-left: 10px;
+    }
+    
+    #foto-12{
+        height: 30px;
+        width: 30px;
+        margin-left: -300px;
+        margin-top: 50px;
+    }
+        
+    #foto-13{
+        height: 50px;
+        width: 80px;
+        
+    }
+
+    #foto-14{
+        height: 50px;
+        width: 80px;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    #foto-15{
+        height: 50px;
+        width: 80px;
+    }
+    
+    .bar-footer{
+        background-color: grey;
+        height: 50px;
+        font-size: 10px;
+        color: white;
+        font-family:"Comic Sans MS" ;
+    }
+
+    .toggle-button{
+        display: flex;
+        height: 20px;
+        margin-top: -5px;
+    }
+
+    .bar-nav{
+        display: none;
+        width: 100%;
+        height: 100px;
+    }
+
+    .bar-content{
+        height: 1000px;
+    }
+
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+    .bar-nav ul{
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+        margin-left: -150px;
+    }
+
+    .bar-nav li {
+        text-align: center;
+    }
+
+    .bar-nav li a{
+       margin-left: 300px;
+    }
+
+    .bar-nav.active{
+        display: flex;
+    }
+    
+
+}
+
+
