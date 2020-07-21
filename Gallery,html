@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+    <link rel="stylesheet" type="text/css" href="ProjectHCI(TugasAkhir).css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="This is an example of a meta description. This will often show up in search result.">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+   
+ <head>
+        <title> Fancy Art</title>
+    </head>
+
+    <body>
+        <div class="bar-head">
+            <a href="ProjectHCI(TugasAkhir).html"><img src="Asset(ProjectHCI)/logo (Fancy Art).png"  id="foto-1"></a>
+        </div>
+
+        
+      
+        <nav class="navbar">
+            <a href="#" class="toggle-button">
+                <span class="bar"> </span>
+                <span class="bar"> </span>
+                <span class="bar"> </span>
+            </a>
+
+        <div class="bar-nav">
+            <ul>    
+                <li>    <a href="ProjectHCI(TugasAkhir).html" class="active">Home </a> </li>
+                <li>    <a href="Auction.html">Aution</a></li>
+                <li>    <a href="Gallery.html">Gallery</a></li>
+                <li>    <a href="Registration(ProjectHCI).html">Registration </a></li>
+                <li>    <a href="About.html">About </a></li>
+                </ul>
+                <section class="sec1"> </section>
+        </div>
+        <script src="app.js"> </script>
+        </nav>
+
+        <div class="bar-content">
+            <br><br><br>
+            <div class="tigaD">
+                <h1> 3D </h1>
+                
+                 <div id="P-7">
+                    Name Of the Art : Candi Borobudur  <br>
+                    Place           : Magelang
+                 </div>
+
+                
+                
+                <img src ="Asset(ProjectHCI)/6.jpg" id="foto-7"> <br>
+
+                 <div id="P-8">
+                    Name Of the Art : Statue Suro & Boyo  <br>
+                    Place           : Surabaya
+                </div>
+                <img src="Asset(ProjectHCI)/8.jpg" id="foto-8">
+            </div>
+            <br><br><br><br><br>
+            <div class="duaD">
+                <h1> 2D </h1>
+                
+                <div id="P-9">
+                    Name Of the Art : Batik Cirebon  <br>
+                    Place           : Cirebon
+                </div>
+                <br>
+                
+
+                <img src ="Asset(ProjectHCI)/7.jpg" id="foto-9"> <br>
+
+                <div id="P-10">
+                    Name Of the Art : Foto of Mount Bromo  <br>
+                    Place           : Bromo tengger semeru
+                </div>
+                
+                <img src="Asset(ProjectHCI)/9.jpeg" id="foto-10"> 
+
+            </div>
+           
+        </div>
+
+
+        <div class="bar-footer">
+            <br>
+            <h2> Copyright &copy 2020 FANCY ART</h2>
+        </div>
+
+    </body>
+</html>
